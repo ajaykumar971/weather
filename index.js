@@ -37,7 +37,7 @@ srch.addEventListener("click", (e) => {
 })
 getWeather("Delhi");
 
-fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Hydrabad', options)
+fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Hyderabad', options)
      .then(response => response.json())
      .then(response => {
 
